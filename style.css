@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #735B37;
+}
+
+.app {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 200px auto;
+    border-radius: 20px;
+}
+
+.todoList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.inputTask {
+    height: 30px;
+    width: 370px;
+    padding: 10px;
+    font-size: 17px;
+    color: #735B37;
+    border: 1px solid #B0B0B0;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    background-color: #735B37;
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#tasks {
+    height: 390px;
+    width: 500px;
+    margin: auto;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 3px solid #735B37;
+    align-items: center;
+}
+
+.taskName {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #735B37;
+}
+
+.delete {
+    margin:0px 10px 10px 0;
+    font-size: 12px;
+}
+
+.fa-trash-alt{
+    font-size: 20px;
+}
