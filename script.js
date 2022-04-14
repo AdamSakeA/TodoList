@@ -30,5 +30,6 @@ btnInput.addEventListener('click', () => {
             }
         })
     }
+    inputTask.value = '';
 })
 
