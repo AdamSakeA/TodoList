@@ -37,11 +37,14 @@ body {
     height: 40px;
     font-size: 30px;
     color: white;
-    background-color: #735B37;
     border: none;
     border-radius: 100%;
     text-align: center;
     cursor: pointer;
+}
+
+.input{
+    background-color: #735B37;
 }
 
 #tasks {
@@ -68,11 +71,32 @@ body {
     color: #735B37;
 }
 
+.alertTask {
+    color: white;
+    background-color: white;
+    margin: 5px 30px;
+    padding: 5px;
+    position: absolute;
+    transition: 1s;
+}
+
 .delete {
     margin:0px 10px 10px 0;
     font-size: 12px;
+    background-color: #B0B0B0;
 }
 
-.fa-trash-alt{
-    font-size: 20px;
+.delete:hover {
+    background-color: #735B37;
+}
+
+.taskName:hover {
+    transition: 0.5s;
+    background-color: #735B37;
+    color:white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 10px 0px black;
 }
